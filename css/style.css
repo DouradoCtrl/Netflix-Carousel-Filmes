@@ -1,0 +1,97 @@
+:root{
+    --verdeazul: #002c5e;
+    --pretoabsoluto: #141414;
+    /* serve para quando quiser mudar de cores não precisar procurar no css todo */
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* evita que a caixa "estoure" */
+}
+/* elementos da nav */
+body{
+    background-color: var(--pretoabsoluto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+
+}
+
+header .container{
+    display: flex; /* joga tudo pra linha */
+    flex-direction: row; /* (em linha) se n colocasse iria vir do mesmo jeito */
+    align-items: center; /* centro da vertical */
+    justify-content: space-between; /* joga a direita da um espaço da primeira tag filha para a segunda jogando tudo ao fundo */
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--verdeazul);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #FFF
+
+}
+/* elementos do filme principal */
+.capa-site{
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../images/shin.jpg);
+    height: 500px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container .sinopse{
+    margin-bottom: 50px;
+}
+.container .titulo{
+    margin-top: 15%;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.container .botao{
+    font-size: 12px;
+    color: #FFF;
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    padding: 15px 30px;
+    margin-right:20px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.container .botoes{
+
+}
+.container .botao:hover{
+    background-color: #FFF;
+    color: #000000;
+}
+.botao i{
+    margin-right: 8px;
+}
+.capa-site .container{
+    margin-left: 25px;
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-tema{
+    margin-top: 5px;
+}
