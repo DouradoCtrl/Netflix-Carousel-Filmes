@@ -3,6 +3,8 @@ Recriando uma central multimídia baseado no site da netflix, porém focado para
 Biblioteca externa
 Framework - Owl
 
+URL: https://douradoctrl.github.io/Netflix-Carousel-Filmes/
+
 ## Planos Futuros:
 Criar funcionalidade para os botões "mais informações" e "assistir vídeo".
 
